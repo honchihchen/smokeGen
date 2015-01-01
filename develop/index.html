@@ -1,0 +1,40 @@
+<!doctype html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<title>Smoke Generator</title>
+	<style type="text/css">
+	    body {
+	    	margin:0px;
+			background-color:#999;
+	    }
+		.container {
+			position: relative;
+			background-color:#999;
+			width: 400px;
+			height: 600px;
+			margin: 0 auto;
+		}
+		.anvas2d {
+			position:relative;
+			z-index:30;
+		} 
+		.emitter {
+			position: absolute;
+			background-color: #333;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			top: 480px; 
+			left: 180px;
+		}    
+	</style> 
+</head> 
+	<body> 
+		<div class="container"> 
+			<div class="emitter"></div> 
+			<canvas class="canvas2d" width="400" height="600"> Your browser does not support HTML5 Canvas.</canvas>
+		</div> 
+	</body>   
+	<script src="smokeApp.js"> </script>
+</html>
